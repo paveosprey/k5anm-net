@@ -10,7 +10,7 @@ This site is a working reference for field operations, antenna projects, digital
 
 | Topic | Description |
 |-------|-------------|
-| [TCARES](tcares/index.md) | Tarrant County Amateur Radio Emergency Service |
+| [TCARES](tcares/index.md) | Travis County Amateur Radio Emergency Service |
 | [RACES](races/index.md) | Radio Amateur Civil Emergency Service |
 | [POTA](pota/index.md) | Parks on the Air activations and logs |
 | [Antennas](antennas/index.md) | Build notes, measurements, and comparisons |
