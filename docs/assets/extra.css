@@ -1,0 +1,48 @@
+/* Texas A&M maroon and gold theme for K5ANM */
+
+:root {
+  --md-primary-fg-color:        #500000;
+  --md-primary-fg-color--light: #7a1c1c;
+  --md-primary-fg-color--dark:  #3a0000;
+  --md-accent-fg-color:         #C49A22;
+  --md-primary-bg-color:        #ffffff;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #500000;
+  --md-primary-fg-color--light: #7a1c1c;
+  --md-primary-fg-color--dark:  #3a0000;
+  --md-accent-fg-color:         #C49A22;
+}
+
+/* Gold accent on links */
+.md-typeset a {
+  color: #8B6914;
+}
+.md-typeset a:hover {
+  color: #C49A22;
+}
+
+/* Gold underline on active nav tab */
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #C49A22 !important;
+}
+
+/* Make logo slightly larger in header */
+.md-header__button.md-logo img {
+  height: 2.4rem;
+  width: auto;
+}
+
+/* Gold horizontal rule */
+.md-typeset hr {
+  border-color: #C49A22;
+}
+
+/* Table header in maroon */
+.md-typeset table:not([class]) th {
+  background-color: #500000;
+  color: #ffffff;
+}
