@@ -6,6 +6,17 @@ This site is a working reference for field operations, antenna projects, digital
 
 ---
 
+<div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:2rem; margin:1.5rem 0;">
+  <img src="assets/images/League_diamond_color_high.jpg" alt="ARRL" style="height:70px; width:auto;">
+  <img src="assets/images/ares-cl-lrg.jpg" alt="ARES" style="height:70px; width:auto;">
+  <img src="assets/images/Travis_County_Ares_New-1.png" alt="Travis County ARES" style="height:70px; width:auto;">
+  <img src="assets/images/TDEM_Seal_WEB.png" alt="Texas Division of Emergency Management" style="height:70px; width:auto;">
+  <img src="assets/images/RACES-logo-300.png" alt="RACES" style="height:70px; width:auto;">
+  <img src="assets/images/AARC-1.png" alt="Austin Amateur Radio Club" style="height:70px; width:auto;">
+</div>
+
+---
+
 ## Quick Links
 
 | Topic | Description |
