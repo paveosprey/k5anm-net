@@ -20,4 +20,6 @@ Parks on the Air is an amateur radio program that encourages operators to make c
 | Awards Earned | 20 |
 | Endorsements | 60 |
 
+[View full profile and awards on POTA.app](https://pota.app/#/profile/K5ANM)
+
 This section documents K5ANM activations including park locations, equipment loadouts, antenna configurations, operating tips, and log summaries from Texas parks and beyond.
