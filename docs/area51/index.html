@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RACES Meeting — K5ANM</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #f0a500;
+      letter-spacing: 0.05em;
+    }
+
+    header p {
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 0.4rem;
+    }
+
+    .player-wrap {
+      width: 100%;
+      max-width: 900px;
+      background: #0d0d1a;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+    }
+
+    video {
+      width: 100%;
+      display: block;
+      background: #000;
+    }
+
+    .controls {
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      border-top: 1px solid #2a2a3e;
+    }
+
+    .meta {
+      font-size: 0.82rem;
+      color: #666;
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: #f0a500;
+      color: #1a1a2e;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 0.5rem 1.1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+
+    .download-btn:hover { background: #ffc107; }
+
+    footer {
+      margin-top: 2.5rem;
+      font-size: 0.78rem;
+      color: #444;
+    }
+
+    footer a { color: #666; text-decoration: none; }
+    footer a:hover { color: #888; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>K5ANM — RACES</h1>
+  <p>Radio Amateur Civil Emergency Service &bull; Travis County ARES</p>
+</header>
+
+<div class="player-wrap">
+  <video
+    controls
+    preload="metadata"
+    src="races-meeting-2026-10-27.mp4"
+  >
+    Your browser does not support the video element.
+    <a href="races-meeting-2026-10-27.mp4">Download the video</a> instead.
+  </video>
+
+  <div class="controls">
+    <span class="meta">RACES Meeting &mdash; October 27, 2026</span>
+    <a class="download-btn" href="races-meeting-2026-10-27.mp4" download>
+      &#8681; Download MP4
+    </a>
+  </div>
+</div>
+
+<footer>
+  <a href="..">&#8592; Back to K5ANM</a>
+</footer>
+
+</body>
+</html>
