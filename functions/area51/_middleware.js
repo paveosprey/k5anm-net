@@ -7,16 +7,20 @@ export async function onRequest(context) {
     if (password === "AA5EX") {
       const ip = context.request.headers.get("CF-Connecting-IP") || "unknown";
       const cf = context.request.cf || {};
-      console.log(JSON.stringify({
-        event: "area51_login",
+      const entry = {
         ip,
         country: cf.country || "unknown",
         city: cf.city || "unknown",
         region: cf.region || "unknown",
-        asn: cf.asn || "unknown",
         asOrg: cf.asOrganization || "unknown",
+        ua: context.request.headers.get("User-Agent") || "unknown",
         time: new Date().toISOString(),
-      }));
+      };
+      console.log(JSON.stringify({ event: "area51_login", ...entry }));
+      if (context.env.AREA51_LOGS) {
+        const key = `login:${entry.time}:${ip}`;
+        await context.env.AREA51_LOGS.put(key, JSON.stringify(entry), { expirationTtl: 60 * 60 * 24 * 90 });
+      }
       return context.next();
     }
   }
